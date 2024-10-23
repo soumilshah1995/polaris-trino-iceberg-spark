@@ -1,0 +1,4 @@
+trino --catalog iceberg
+SHOW SCHEMAS FROM iceberg;
+
+SELECT * FROM iceberg.spark_demo.customer LIMIT 10;
